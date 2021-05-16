@@ -32,9 +32,13 @@ h3 {
   line-height: 1.3;
 } 
 
+.row{
+  height: 100vh;
+}
+
 .hero-container {
   background-color: #ffeb9c;
-  height: 100vh;
+  color: #fff;
 }
 
 .hero-col-one {
@@ -42,7 +46,7 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: auto;
+  
 }
 
 .hero-col-two {
@@ -55,7 +59,7 @@ h3 {
 
 
 .hero-header {
-  font-size: 86px;
+  font-size: 5.5rem;
   letter-spacing: -5px;
   font-weight: 700;
   line-height: 0.95;
