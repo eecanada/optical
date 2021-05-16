@@ -41,7 +41,7 @@ h3 {
 
 .navbar-brand {
   color: #fff;
-  font-size: 2.2rem;
+  font-size: 1.7rem;
   line-height: 1.4;
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 1px;
@@ -54,7 +54,7 @@ h3 {
 .nav-link {
   color: #545454;
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .nav-link:hover {
