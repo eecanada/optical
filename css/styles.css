@@ -10,7 +10,6 @@ img {
 
 body {
   line-height: 1.5;
-  max-width: 1140px;
 }
 
 @font-face {
@@ -90,7 +89,7 @@ h3 {
   font-family: 'league_spartan';
   color: #fff;
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .hero-tag-line {
