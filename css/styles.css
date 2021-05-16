@@ -10,6 +10,7 @@ img {
 
 body {
   line-height: 1.5;
+  width: 100%;
 }
 
 @font-face {
@@ -83,7 +84,7 @@ h3 {
 }
 
 .hero-text {
-  font-size: 7.4rem;
+  font-size: 8vw;
   letter-spacing: -5px;
   font-family: 'league_spartan';
   color: #fff;
@@ -99,6 +100,36 @@ h3 {
   color: #fff;
 }
 
-.col-lg-5 {
-  background-color: #ffeb9c;
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 575px) {
+  .hero-text {
+    font-size: 14vw;
+  }
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  .header-image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #ffeb9c;
+  }
+
+  .responsive {
+    width: 50%;
+  }
+
+  
+}
+
+.service-header {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 5rem;
 }
