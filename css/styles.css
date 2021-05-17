@@ -112,6 +112,8 @@ h3 {
   .navbar-brand {
     font-size: 1.9em;
   }
+
+  
 }
 
 @media screen and (max-width: 575px) {
@@ -125,7 +127,9 @@ h3 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: flex-start;
     background-color: #ffeb9c;
+    margin-top: 0 !important;
   }
 
   .hero-tag-line {
