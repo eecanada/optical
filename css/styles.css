@@ -105,6 +105,12 @@ h3 {
   height: auto;
 }
 
+@media screen and (max-width: 768px) {
+  .hero-tag-line {
+    font-size: 1.2rem;
+  }
+}
+
 @media screen and (max-width: 575px) {
   .hero-text {
     font-size: 14vw;
@@ -119,11 +125,13 @@ h3 {
     background-color: #ffeb9c;
   }
 
-  .responsive {
-    width: 50%;
+  .hero-tag-line {
+    font-size: 1rem;
   }
 
-  
+  .responsive {
+    width: 80%;
+  }
 }
 
 .service-header {
