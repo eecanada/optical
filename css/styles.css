@@ -109,6 +109,9 @@ h3 {
   .hero-tag-line {
     font-size: 1.2rem;
   }
+  .navbar-brand {
+    font-size: 1.9em;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -116,7 +119,7 @@ h3 {
     font-size: 14vw;
   }
   .navbar-brand {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
   .header-image-container {
     display: flex;
