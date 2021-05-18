@@ -80,7 +80,7 @@ h3 {
 .hero {
   background-color: #ffeb9c;
   height: 100vh;
-  width: 100vw;
+  /* width: 100vw; */
 }
 
 .hero-text {
@@ -106,17 +106,36 @@ h3 {
 }
 
 @media screen and (max-width: 768px) {
+  .hero-text {
+    font-size: 10vw;
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
+
+  .hero-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   .hero-tag-line {
     font-size: 1.2rem;
   }
   .navbar-brand {
     font-size: 1.9em;
   }
-
-  
+  .header-image-container {
+    margin-top: 0 !important;
+  }
+  .responsive {
+    width: 90%;
+  }
 }
 
 @media screen and (max-width: 575px) {
+  /* .hero{
+    height: 91vh;
+  } */
   .hero-text {
     font-size: 14vw;
   }
@@ -137,8 +156,18 @@ h3 {
   }
 
   .responsive {
-    width: 80%;
+    width: 70%;
   }
+}
+
+/* Services Container */
+
+.services-container {
+  /* float: left;
+  background: rgb(255,235,156);
+  shape-outside:polygon(78% 0, 100% 0, 100% 100%, 53% 100%);
+  clip-path: polygon(78% 0, 100% 0, 100% 100%, 53% 100%); */
+  height: 100vh;
 }
 
 .service-header {
@@ -147,4 +176,37 @@ h3 {
   text-align: center;
   font-size: 4rem;
   margin-top: 5rem;
+  line-height: 1.4;
+  margin-bottom: 0.5rem;
+  color: #545454;
+  /* z-index: 1; */
+}
+
+.service-tag-line {
+  font-size: 1.7rem;
+  font-style: italic;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  line-height: 1.4;
+  color: #545454;
+}
+
+.services-col-one {
+  border: 1px solid black;
+  margin-top: 1rem;
+}
+
+.service-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.service-list li {
+  list-style: none;
+}
+
+.services-col-two {
+  border: 1px solid black;
+  background-color: #ffeb9c;
 }

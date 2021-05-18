@@ -28,46 +28,45 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg">
-      <div class="container">
-        <a class="navbar-brand" href="#">Optical Lens</a>
-        <button
-          class="navbar-toggler custom-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarNavAltMarkup"
-        >
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#"
-              >Services |</a
-            >
-            <a class="nav-link" href="#">Selections |</a>
-            <a class="nav-link" href="#">Testimonials |</a>
-            <a class="nav-link" href="#">Contact Us</a>
-            <!-- <a
-              class="nav-link disabled"
-              href="#"
-              tabindex="-1"
-              aria-disabled="true"
-              >Disabled</a
-            > -->
+    <div class="container-fluid hero">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#">Optical Lens</a>
+          <button
+            class="navbar-toggler custom-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Services |</a
+              >
+              <a class="nav-link" href="#">Selections |</a>
+              <a class="nav-link" href="#">Testimonials |</a>
+              <a class="nav-link" href="#">Contact Us</a>
+              <!-- <a
+                class="nav-link disabled"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                >Disabled</a
+              > -->
+            </div>
           </div>
         </div>
-      </div>
-    </nav>
-
-    <div class="container-fluid hero">
-      <div class="row">
-        <div class="col-med-6 col-sm-6 mx-auto mt-5">
+      </nav>
+      <div class="row hero-div">
+        <div class="col-lg-6 col-md-6 col-sm-6 mx-auto mt-5">
           <h1 class="hero-text">
             your <br />
             neighboohood<br />
@@ -75,26 +74,468 @@
           </h1>
           <p class="hero-tag-line">A LOOK FOR EVERYONE IN YOUR FAMILY</p>
         </div>
-        <div class="col-md-4 col-sm-6 mx-auto mt-5 header-image-container">
+        <div
+          class="col-lg-4 col-md-4 col-sm-6 mx-auto mt-5 header-image-container"
+        >
           <img class="responsive" src="./images/Specs-amico.svg" alt="" />
         </div>
       </div>
     </div>
 
-    <!-- <div class="services">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12">
-            <h1 class="service-header">How We Can Help You</h1>
-            <p class="service-tag-line">find out more about our services</p>
-          </div>
+    <!-- <div class="services"> -->
+    <div class="container-fluid services-container">
+      <div class="row service-row">
+        <div class="col-sm-12">
+          <h1 class="service-header">How We Can Help You</h1>
+          <p class="service-tag-line">find out more about our services</p>
+        </div>
+        <div class="col-sm-8 services-col-one">
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            Comprehensive Eye Exam
+          </button>
 
-          <div class="col-lg-6 col-md-8 col-sm-6">
-            <div class="services-col-one"></div>
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal2"
+          >
+            Contact Lenses
+          </button>
+
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal3"
+          >
+            Pediatric Eye Care
+          </button>
+
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal4"
+          >
+            Optical Department
+          </button>
+
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal5"
+          >
+            Glocaoma Exam
+          </button>
+
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal6"
+          >
+            Eyeglass Frame Repair
+          </button>
+
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal7"
+          >
+            Eye Diseases Exam
+          </button>
+
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal8"
+          >
+            Test
+          </button>
+        </div>
+
+        <div class="col-sm-4 services-col-two">
+          <img src="./images/Agreement-amico.svg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- MODALS -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Comprehensive Eye Exam
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            A comprehensive eye exam is like an annual physical for your eye.
+            And like your annual physical exam, the comprehensive eye exam is
+            focused on preventive care. Unfortunately, many eye diseases develop
+            without causing noticeable symptoms, and if left untreated they may
+            cause permanent damage to your vision that may ultimately lead to
+            blindness. The comprehensive eye exam is designed to assess the
+            health and function of your eyes, as well as identify and treat
+            conditions before they lead to serious vision loss.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
+
+    <div
+      class="modal fade"
+      id="exampleModal2"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Contact Lenses</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Thanks to the advances in optical technology, almost everyone is a
+            candidate for contact lens use. This includes patients with
+            astigmatism and also those who prefer bifocal or multifocal lenses.
+            At our office, we offer a comprehensive array of contact lenses to
+            suit each individual patient's needs. We offer daily disposables,
+            extended wear soft lenses to gas permeable contact lenses. We offer
+            regular and custom lens services for both healthy and difficult to
+            fit patients.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="exampleModal3"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Pediatric Eye Care
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Taking your child for a comprehensive eye exam at an early age, and
+            maintaining regularly scheduled eye care checkups as they are
+            growing up, is the best way to ensure that your child’s vision
+            development reaches its full potential and to make certain that your
+            child acquires the visual skills needed to fully participate in all
+            activities. <br />
+            <br />
+
+            According to guidelines established by the American Optometric
+            Association a child should receive an eye exam at the ages of 6
+            months, 3 years, before kindergarten, and then once every two years.
+            However, in the presence of certain risk factors or diagnosed vision
+            issues, more frequent exams may be recommended. Children who are
+            wearing eyeglasses or contact lenses should be checked annually.
+            <br />
+            <br />
+
+            The members of our professional team are skilled and experienced
+            providers of comprehensive vision care for children and do their
+            best to make sure that your child’s eyes are strong and healthy as
+            they grow.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="exampleModal4"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Optical Department
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Glasses, more than ever, say a lot about your personality, style,
+            and fashion. Selecting the right frames can be confusing and
+            daunting, especially for first time patients. Our staff has a great
+            deal of experience helping patients find the best frames for them –
+            taking into account budget, medical needs, lifestyle, and
+            appearance. We are here to help you find the perfect look, while
+            also correcting your vision.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="exampleModal5"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Glaucoma Exam</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Glaucoma, the leading cause of blindness and visual impairment in
+            the United States, is an eye disease that can lead to a permanent
+            loss of vision. We provide all diagnostic and treatment options for
+            glaucoma care. Glaucoma generally provides no warning signs or
+            symptoms of disease, making testing an important part of a full
+            vision exam. We utilize the latest and most advanced computerized
+            tests to diagnose glaucoma.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="exampleModal6"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Eye Glass Frame Repair
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Eyeglass frames, while stylish and functional, can be fragile. Our
+            skilled technicians repair most types of frames including full and
+            half metal, plastic, wood and titanium frames. <br />
+            <br />
+            From hinges to missing or broken nose pads, from lost or broken
+            screws to cracked temples, we’ll fix your broken eyeglass frames or
+            sunglasses frames while you wait or shop. <br />
+            <br />
+            Our eyeglass frame repair service ensures you receive fast, reliable
+            and convenient attention. Professional eyeglass and sunglass frame
+            repairs including <br />
+            <br />
+
+            - Bridges <br />
+            - Hinges or hinge bearing <br />
+            - Lost or broken screws <br />
+            - Missing or broken nose pads <br />
+            - Temples
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+
+            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="exampleModal7"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Eye Diseases Exam
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <b>Diabetes </b>is a chronic health condition that can increase your
+            risk of many health conditions, including those related to the eye.
+            At Perspective Family Eyecare in Crown Heights, Brooklyn, New York,
+            Benjamin Arthur, OD, provides diabetic eye exams to monitor eye
+            health for those with diabetes as well as comprehensive care to
+            minimize damage and vision changes <br />
+            <br />
+
+            A <b>cataract </b> is a clouding of the normally clear lens within
+            your eyes. For people with cataracts, seeing through a clouded lens
+            is a bit like looking through a frosted or fogged up window.
+            Cataracts are very common and part of the natural aging process.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Button trigger modal -->
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal8"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">...</div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- We can incorporate eyeglass prescriptions into sports sunglasses (running/jogging, tennis or golf) and goggles (basketball, baseball, football, swimming or skiing).  -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
