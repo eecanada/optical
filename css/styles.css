@@ -163,10 +163,12 @@ h3 {
 /* Services Container */
 
 .services-container {
-  /* float: left;
-  background: rgb(255,235,156);
-  shape-outside:polygon(78% 0, 100% 0, 100% 100%, 53% 100%);
-  clip-path: polygon(78% 0, 100% 0, 100% 100%, 53% 100%); */
+  background: rgb(255, 235, 156);
+  background: linear-gradient(
+    295deg,
+    rgba(255, 235, 156, 1) 43%,
+    rgba(255, 255, 255, 1) 43%
+  );
   height: 100vh;
 }
 
@@ -175,11 +177,10 @@ h3 {
   font-weight: 800;
   text-align: center;
   font-size: 4rem;
-  margin-top: 5rem;
+  margin-top: 3rem;
   line-height: 1.4;
   margin-bottom: 0.5rem;
   color: #545454;
-  /* z-index: 1; */
 }
 
 .service-tag-line {
@@ -192,9 +193,36 @@ h3 {
 }
 
 .services-col-one {
-  border: 1px solid black;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
   margin-top: 1rem;
 }
+
+div.services-col-one > button {
+  width: 100%;
+  margin: 10px;
+  outline: 0;
+  border: 1px solid transparent;
+  color: #545454;
+}
+
+div.services-col-one > .btn-outline-primary:hover {
+  color: #545454;
+  background-color: #fff;
+  border: 2px solid #ffeb9c;
+  width: 70%;
+}
+
+div.services-col-one > .btn-outline-primary:focus{
+  color: #545454;
+  background-color: #fff;
+  border: 2px solid #ffeb9c;
+  width: 70%;
+}
+
 
 .service-list {
   display: flex;
@@ -206,7 +234,13 @@ h3 {
   list-style: none;
 }
 
-.services-col-two {
-  border: 1px solid black;
-  background-color: #ffeb9c;
+
+.look-svg {
+  transform: scaleX(-1);
+  margin: 0;
+  padding: 0;
+}
+
+.look-column-one{
+  padding: 0;
 }
