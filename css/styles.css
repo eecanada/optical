@@ -262,3 +262,18 @@ div.services-col-one > .btn-outline-primary:focus {
   );
   height: 100vh;
 }
+
+.team-container {
+  background: rgb(255, 235, 156);
+  background: linear-gradient(
+    305deg,
+    rgba(255, 235, 156, 1) 43%,
+    rgba(255, 255, 255, 1) 43%
+  );
+  height: 100vh;
+}
+
+
+.text-muted {
+  color: #545454!important;
+}
