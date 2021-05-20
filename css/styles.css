@@ -165,7 +165,7 @@ h3 {
 .services-container {
   background: rgb(255, 235, 156);
   background: linear-gradient(
-    295deg,
+    305deg,
     rgba(255, 235, 156, 1) 43%,
     rgba(255, 255, 255, 1) 43%
   );
@@ -216,13 +216,12 @@ div.services-col-one > .btn-outline-primary:hover {
   width: 70%;
 }
 
-div.services-col-one > .btn-outline-primary:focus{
+div.services-col-one > .btn-outline-primary:focus {
   color: #545454;
   background-color: #fff;
   border: 2px solid #ffeb9c;
   width: 70%;
 }
-
 
 .service-list {
   display: flex;
@@ -234,6 +233,15 @@ div.services-col-one > .btn-outline-primary:focus{
   list-style: none;
 }
 
+.look-container {
+  background: rgb(255, 235, 156);
+  background: linear-gradient(
+    86deg,
+    rgba(255, 235, 156, 1) 43%,
+    rgba(255, 255, 255, 1) 43%
+  );
+  height: 100vh;
+}
 
 .look-svg {
   transform: scaleX(-1);
@@ -241,6 +249,16 @@ div.services-col-one > .btn-outline-primary:focus{
   padding: 0;
 }
 
-.look-column-one{
+.look-column-one {
   padding: 0;
+}
+
+.testimonial-container {
+  background: rgb(255, 235, 156);
+  background: linear-gradient(
+    305deg,
+    rgba(255, 235, 156, 1) 43%,
+    rgba(255, 255, 255, 1) 43%
+  );
+  height: 100vh;
 }
