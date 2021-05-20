@@ -165,9 +165,9 @@ h3 {
 .services-container {
   background: rgb(255, 235, 156);
   background: linear-gradient(
-    305deg,
-    rgba(255, 235, 156, 1) 43%,
-    rgba(255, 255, 255, 1) 43%
+    282deg,
+    rgba(255, 235, 156, 1) 40%,
+    rgba(255, 255, 255, 1) 40%
   );
   height: 100vh;
 }
@@ -233,13 +233,16 @@ div.services-col-one > .btn-outline-primary:focus {
   list-style: none;
 }
 
+/* Look Container */
 .look-container {
-  background: rgb(255, 235, 156);
   background: linear-gradient(
-    86deg,
-    rgba(255, 235, 156, 1) 43%,
-    rgba(255, 255, 255, 1) 43%
+    41deg,
+    #fff 25%,
+    #ffeb9c 18%,
+    #ffeb9c 36%,
+    #fff 22%
   );
+  background-repeat: no-repeat;
   height: 100vh;
 }
 
@@ -253,27 +256,36 @@ div.services-col-one > .btn-outline-primary:focus {
   padding: 0;
 }
 
+/* Testimonial Container */
 .testimonial-container {
   background: rgb(255, 235, 156);
-  background: linear-gradient(
-    305deg,
-    rgba(255, 235, 156, 1) 43%,
-    rgba(255, 255, 255, 1) 43%
+  background-image: linear-gradient(
+    124deg,
+    #fff 49%,
+    #ffeb9c 47%,
+    #ffeb9c 69%,
+    #545454 66%,
+    #545453 57%,
+    #545454 73%,
+    #ffeb9c 66%,
+    #ffeb9c 77%,
+    #fff 37%
   );
   height: 100vh;
 }
 
+/* Team Container */
 .team-container {
   background: rgb(255, 235, 156);
   background: linear-gradient(
-    305deg,
-    rgba(255, 235, 156, 1) 43%,
-    rgba(255, 255, 255, 1) 43%
+    69deg,
+    rgba(255, 235, 156, 1) 24%,
+    rgba(255, 255, 255, 1) 24%
   );
   height: 100vh;
 }
 
-
+/* Footer */
 .text-muted {
-  color: #545454!important;
+  color: #545454 !important;
 }
