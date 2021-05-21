@@ -165,9 +165,9 @@ h3 {
 .services-container {
   background: rgb(255, 235, 156);
   background: linear-gradient(
-    282deg,
-    rgba(255, 235, 156, 1) 40%,
-    rgba(255, 255, 255, 1) 40%
+    326deg,
+    rgba(255, 235, 156, 1) 32%,
+    rgba(255, 255, 255, 1) 32%
   );
   height: 100vh;
 }

@@ -3,3 +3,8 @@
  height:100vh
 }
 
+background: rgb(255, 235, 156);
+  background: linear-gradient(
+    282deg,
+    rgba(255, 235, 156, 1) 40%,
+    rgba(255, 255, 255, 1) 40%
