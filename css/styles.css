@@ -256,6 +256,11 @@ div.services-col-one > .btn-outline-primary:focus {
   padding: 0;
 }
 
+.logo-image{
+  max-width: 200px;
+  margin: 0 2rem
+}
+
 /* Testimonial Container */
 .testimonial-container {
   background: rgb(255, 235, 156);
