@@ -233,6 +233,12 @@ div.services-col-one > .btn-outline-primary:focus {
   list-style: none;
 }
 
+@media screen and (max-width:575px) {
+  .service-image{
+    display: none
+  }
+}
+
 /* Look Container */
 .look-container {
   background: linear-gradient(
