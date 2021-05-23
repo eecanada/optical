@@ -289,6 +289,10 @@ div.services-col-one > .btn-outline-primary:focus {
     margin: 1rem 1rem;
   }
 
+  .look-tag-line{
+    margin-bottom: -2rem;
+  }
+
   .look-column-one {
     display: flex;
     align-items: center;
