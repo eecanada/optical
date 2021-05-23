@@ -261,7 +261,7 @@ div.services-col-one > .btn-outline-primary:focus {
     #ffeb9c 36%,
     #fff 22%
   );
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   /* height: 100vh; */
 }
 
@@ -278,7 +278,7 @@ div.services-col-one > .btn-outline-primary:focus {
 
 
 @media screen and (min-width:769px) {
-  .services-container{
+  .look-container{
     height: 100vh;
   }
 }
