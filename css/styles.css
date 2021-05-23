@@ -79,7 +79,7 @@ h3 {
 
 .hero {
   background-color: #ffeb9c;
-  height: 100vh;
+  
   /* width: 100vw; */
 }
 
@@ -103,6 +103,12 @@ h3 {
 .responsive {
   max-width: 100%;
   height: auto;
+}
+
+@media screen and (min-width:769px) {
+  .hero{
+    height: 100vh;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -169,8 +175,10 @@ h3 {
     rgba(255, 235, 156, 1) 32%,
     rgba(255, 255, 255, 1) 32%
   );
-  height: 100vh;
+  
 }
+
+
 
 .service-header {
   font-family: 'Open Sans', sans-serif;
@@ -193,7 +201,6 @@ h3 {
 }
 
 .services-col-one {
-  margin-top: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -233,9 +240,15 @@ div.services-col-one > .btn-outline-primary:focus {
   list-style: none;
 }
 
-@media screen and (max-width:575px) {
-  .service-image{
-    display: none
+@media screen and (min-width:769px) {
+  .services-container{
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .service-image {
+    display: none;
   }
 }
 
@@ -249,7 +262,7 @@ div.services-col-one > .btn-outline-primary:focus {
     #fff 22%
   );
   background-repeat: no-repeat;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .look-svg {
@@ -258,20 +271,41 @@ div.services-col-one > .btn-outline-primary:focus {
   padding: 0;
 }
 
-.look-column-one {
-  padding: 0;
-}
-
-.logo-container {
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: center;
-  justify-content: center;
-}
-
 .logo-image {
   max-width: 200px;
-  margin: 0 2rem;
+  margin: 1rem 1rem;
+}
+
+
+@media screen and (min-width:769px) {
+  .services-container{
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo-image {
+    max-width: 150px;
+    margin: 1rem 1rem;
+  }
+
+  .look-column-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .look-svg {
+    max-width: 300px;
+  }
+
+  .look-column-two {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 /* Testimonial Container */
