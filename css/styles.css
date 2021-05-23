@@ -256,9 +256,16 @@ div.services-col-one > .btn-outline-primary:focus {
   padding: 0;
 }
 
-.logo-image{
+.logo-container {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-image {
   max-width: 200px;
-  margin: 0 2rem
+  margin: 0 2rem;
 }
 
 /* Testimonial Container */
