@@ -79,7 +79,7 @@ h3 {
 
 .hero {
   background-color: #ffeb9c;
-  
+
   /* width: 100vw; */
 }
 
@@ -105,8 +105,8 @@ h3 {
   height: auto;
 }
 
-@media screen and (min-width:769px) {
-  .hero{
+@media screen and (min-width: 769px) {
+  .hero {
     height: 100vh;
   }
 }
@@ -175,10 +175,7 @@ h3 {
     rgba(255, 235, 156, 1) 32%,
     rgba(255, 255, 255, 1) 32%
   );
-  
 }
-
-
 
 .service-header {
   font-family: 'Open Sans', sans-serif;
@@ -240,8 +237,8 @@ div.services-col-one > .btn-outline-primary:focus {
   list-style: none;
 }
 
-@media screen and (min-width:769px) {
-  .services-container{
+@media screen and (min-width: 769px) {
+  .services-container {
     height: 100vh;
   }
 }
@@ -276,9 +273,8 @@ div.services-col-one > .btn-outline-primary:focus {
   margin: 1rem 1rem;
 }
 
-
-@media screen and (min-width:769px) {
-  .look-container{
+@media screen and (min-width: 769px) {
+  .look-container {
     height: 100vh;
   }
 }
@@ -289,7 +285,7 @@ div.services-col-one > .btn-outline-primary:focus {
     margin: 1rem 1rem;
   }
 
-  .look-tag-line{
+  .look-tag-line {
     margin-bottom: -2rem;
   }
 
@@ -327,7 +323,85 @@ div.services-col-one > .btn-outline-primary:focus {
     #ffeb9c 77%,
     #fff 37%
   );
-  height: 100vh;
+}
+
+@media screen and (min-width: 769px and min-width 1059px) {
+  .testimonial-container {
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .testimonial-svg {
+    max-width: 300px;
+  }
+  .testimonial-col-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .testimonial-container {
+    background: rgb(255, 235, 156);
+    background-image: linear-gradient(
+      143deg,
+      #fff 61%,
+      #ffeb9c 57%,
+      #ffeb9c 71%,
+      #545454 71%,
+      #545453 64%,
+      #545454 72%,
+      #ffeb9c 71%,
+      #ffeb9c 75%,
+      #fff 37%
+    );
+  }
+}
+
+.first-testimonial {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+.testimonial-photo {
+  height: 120px;
+  width: 100px;
+  border-radius: 100%;
+  float: left;
+  margin-right: 2rem;
+  border: 5px solid #ffeb9c;
+}
+
+.testimonial-text {
+  display: inline;
+  font-family: "Inter";
+  font-size: 1.1rem
+}
+
+.testimonial-text-two {
+  display: inline;
+  font-family: "Inter";
+  font-size: 1.2rem
+}
+ 
+.second-testimonial {
+  padding: 1.1rem;
+}
+
+.testimonial-photo-two {
+  height: 120px;
+  width: 100px;
+  border-radius: 100%;
+  float: right;
+  margin-left: 2rem;
+  border: 5px solid white;
+}
+
+
+
+.testimonial-name {
+  text-align: right;
+  font-family: "Inter";
 }
 
 /* Team Container */
