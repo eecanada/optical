@@ -205,18 +205,24 @@ h3 {
   margin-top: 1rem;
 }
 
-.button-col-one{
+.button-col-one {
   display: flex;
   flex-direction: column;
 }
 
-.button-col-two{
+.button-col-two {
   display: flex;
   flex-direction: column;
-  }
+}
 
-.btn{
-  margin:30px;
+.btn-service {
+  margin: 30px;
+  outline: 0;
+  border: 1px solid #ff9c8b;
+  color: #545454;
+  font-family: 'Inter';
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 /* div.services-col-one > button {
@@ -241,16 +247,6 @@ div.services-col-one > .btn-outline-primary:focus {
   width: 70%;
 } */
 
-/* .service-list {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.service-list li {
-  list-style: none;
-} */
-
 @media screen and (min-width: 769px) {
   .services-container {
     height: 100vh;
@@ -258,28 +254,22 @@ div.services-col-one > .btn-outline-primary:focus {
 }
 
 @media screen and (max-width: 767px) {
-  .service-image{
+  .service-image {
     max-width: 300px;
     margin: auto;
   }
-  .services-col-two{
+  .services-col-two {
     display: flex;
     justify-content: center;
   }
-  .btn{
-    margin:5px;
+  .btn-service {
+    margin: 5px;
     width: 90%;
     height: 70px;
     text-align: center;
     vertical-align: middle;
   }
 }
-
-/* @media screen and (max-width: 575px) {
-  .service-image {
-    display: none;
-  }
-} */
 
 /* Look Container */
 .look-container {
@@ -290,8 +280,6 @@ div.services-col-one > .btn-outline-primary:focus {
     #ffeb9c 36%,
     #fff 22%
   );
-  /* background-repeat: no-repeat; */
-  /* height: 100vh; */
 }
 
 .look-svg {
@@ -309,6 +297,10 @@ div.services-col-one > .btn-outline-primary:focus {
   .look-container {
     height: 100vh;
   }
+  /* .look-column-two{
+    margin: auto;
+    padding: 4rem;
+  } */
 }
 
 @media screen and (max-width: 768px) {
@@ -357,7 +349,7 @@ div.services-col-one > .btn-outline-primary:focus {
   );
 }
 
-@media screen and (min-width: 769px and min-width 1059px) {
+@media screen and (min-width: 810px)  {
   .testimonial-container {
     height: 100vh;
   }
@@ -406,16 +398,16 @@ div.services-col-one > .btn-outline-primary:focus {
 
 .testimonial-text {
   display: inline;
-  font-family: "Inter";
-  font-size: 1.1rem
+  font-family: 'Inter';
+  font-size: 1.1rem;
 }
 
 .testimonial-text-two {
   display: inline;
-  font-family: "Inter";
-  font-size: 1.2rem
+  font-family: 'Inter';
+  font-size: 1.2rem;
 }
- 
+
 .second-testimonial {
   padding: 1.1rem;
 }
@@ -429,11 +421,9 @@ div.services-col-one > .btn-outline-primary:focus {
   border: 5px solid white;
 }
 
-
-
 .testimonial-name {
   text-align: right;
-  font-family: "Inter";
+  font-family: 'Inter';
 }
 
 /* Team Container */
