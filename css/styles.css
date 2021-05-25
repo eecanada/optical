@@ -349,13 +349,14 @@ div.services-col-one > .btn-outline-primary:focus {
   );
 }
 
-@media screen and (min-width: 810px)  {
+@media screen and (min-width: 987px) {
   .testimonial-container {
     height: 100vh;
   }
+  
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
   .testimonial-svg {
     max-width: 300px;
   }
