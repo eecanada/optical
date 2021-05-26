@@ -215,14 +215,27 @@ h3 {
   flex-direction: column;
 }
 
+.button-col-three {
+  display: flex;
+  flex-direction: column;
+}
+
 .btn-service {
   margin: 30px;
   outline: 0;
-  border: 1px solid #ff9c8b;
-  color: #545454;
+  /* border: 1px solid #ff9c8b; */
+  background: rgb(255, 156, 139);
+  color: #fff;
   font-family: 'Inter';
-  font-size: 1rem;
-  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 0.6rem 1rem;
+  border-radius: 10px;
+  transition: transform 0.5s;
+}
+
+.btn-service:hover {
+  transform: scale(1.1);
+  color: #fff;
 }
 
 /* div.services-col-one > button {
@@ -247,13 +260,17 @@ div.services-col-one > .btn-outline-primary:focus {
   width: 70%;
 } */
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 992px) {
   .services-container {
     height: 100vh;
   }
+  .services-col-two {
+    display: flex;
+    justify-content: center;
+  }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1001px) {
   .service-image {
     max-width: 300px;
     margin: auto;
@@ -262,9 +279,31 @@ div.services-col-one > .btn-outline-primary:focus {
     display: flex;
     justify-content: center;
   }
+
   .btn-service {
     margin: 5px;
     width: 90%;
+    height: 70px;
+    text-align: center;
+    vertical-align: middle;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .btn-service {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 487px) {
+  .services-col-one {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn-service {
+    margin: 5px;
+    width: 300px;
     height: 70px;
     text-align: center;
     vertical-align: middle;
@@ -297,10 +336,11 @@ div.services-col-one > .btn-outline-primary:focus {
   .look-container {
     height: 100vh;
   }
-  /* .look-column-two{
+  .look-row {
+    justify-content: center;
+    align-items: center;
     margin: auto;
-    padding: 4rem;
-  } */
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -382,6 +422,12 @@ div.services-col-one > .btn-outline-primary:focus {
       #fff 37%
     );
   }
+}
+
+.first-testimonial-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .first-testimonial {
