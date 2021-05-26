@@ -349,11 +349,13 @@ div.services-col-one > .btn-outline-primary:focus {
   );
 }
 
-@media screen and (min-width: 987px) {
+@media screen and (min-width: 1060px) {
   .testimonial-container {
     height: 100vh;
   }
-  
+  .second-testimonial {
+    margin-bottom: 2rem;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -386,6 +388,10 @@ div.services-col-one > .btn-outline-primary:focus {
   margin-top: 2rem;
   margin-bottom: 2rem;
   padding: 1rem;
+}
+
+.clear {
+  clear: both;
 }
 
 .testimonial-photo {
