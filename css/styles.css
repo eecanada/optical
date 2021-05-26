@@ -332,14 +332,19 @@ div.services-col-one > .btn-outline-primary:focus {
   margin: 1rem 1rem;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width:768px ) and (max-width:1280px) {
+  .look-row {
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (min-width: 569px) {
   .look-container {
     height: 100vh;
   }
   .look-row {
     justify-content: center;
     align-items: center;
-    margin: auto;
   }
 }
 
@@ -350,7 +355,7 @@ div.services-col-one > .btn-outline-primary:focus {
   }
 
   .look-tag-line {
-    margin-bottom: -2rem;
+    margin-bottom: 2rem;
   }
 
   .look-column-one {
