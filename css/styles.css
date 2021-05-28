@@ -238,27 +238,6 @@ h3 {
   color: #fff;
 }
 
-/* div.services-col-one > button {
-  width: 100%;
-  margin: 10px;
-  outline: 0;
-  border: 1px solid transparent;
-  color: #545454;
-}
-
-div.services-col-one > .btn-outline-primary:hover {
-  color: #545454;
-  background-color: #fff;
-  border: 2px solid #ffeb9c;
-  width: 70%;
-}
-
-div.services-col-one > .btn-outline-primary:focus {
-  color: #545454;
-  background-color: #fff;
-  border: 2px solid #ffeb9c;
-  width: 70%;
-} */
 
 @media screen and (min-width: 992px) {
   .services-container {
@@ -267,6 +246,9 @@ div.services-col-one > .btn-outline-primary:focus {
   .services-col-two {
     display: flex;
     justify-content: center;
+  }
+  .nav-link::after{
+    content:' |';
   }
 }
 
@@ -332,7 +314,7 @@ div.services-col-one > .btn-outline-primary:focus {
   margin: 1rem 1rem;
 }
 
-@media screen and (min-width:768px ) and (max-width:1280px) {
+@media screen and (min-width: 768px) and (max-width: 1280px) {
   .look-row {
     margin-top: 3rem;
   }
