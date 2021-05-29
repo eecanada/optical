@@ -238,7 +238,6 @@ h3 {
   color: #fff;
 }
 
-
 @media screen and (min-width: 992px) {
   .services-container {
     height: 100vh;
@@ -247,8 +246,8 @@ h3 {
     display: flex;
     justify-content: center;
   }
-  .nav-link::after{
-    content:' |';
+  .nav-link::after {
+    content: ' |';
   }
 }
 
@@ -344,6 +343,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: -3rem;
   }
 
   .look-svg {
@@ -477,7 +477,24 @@ h3 {
   height: 100vh;
 }
 
+
+
+.team-row{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items: center;
+}
+
+.team-col-two img{
+  max-width: 300px;
+}
+
 /* Footer */
+footer{
+  background-color: #ffeb9c;
+}
+
 .text-muted {
   color: #545454 !important;
 }
