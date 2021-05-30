@@ -486,6 +486,10 @@ h3 {
   align-items: center;
 }
 
+.team-col-two{
+  display: flex;
+}
+
 .team-col-two img{
   max-width: 300px;
 }
