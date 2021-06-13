@@ -477,6 +477,11 @@ h3 {
   height: 100vh;
 }
 
+@media screen and (max-width: 991px) {
+  .team-svg {
+    max-width: 300px;
+  }
+
 .team-row {
   display: flex;
   flex-direction: row;
