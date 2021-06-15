@@ -482,11 +482,49 @@ h3 {
     max-width: 300px;
   }
 
+  #photo-one {
+    max-width: 300px;
+  }
+  #photo-two {
+    max-width: 300px;
+  }
+  #our-team {
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  #team-photo-text{
+    display: flex;
+    justify-content: center;
+
+  }
+
+  #photo-one {
+    max-width: 200px;
+  }
+  #photo-two {
+    max-width: 200px;
+  }
+
+  
+}
+
+#svg-team {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .team-row {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+}
+
+#team-photo-text {
+  display: flex;
 }
 
 .team-col-two {
