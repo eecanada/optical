@@ -474,7 +474,7 @@ h3 {
     rgba(255, 235, 156, 1) 24%,
     rgba(255, 255, 255, 1) 24%
   );
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 @media screen and (max-width: 991px) {
@@ -488,9 +488,7 @@ h3 {
   #photo-two {
     max-width: 300px;
   }
-  #our-team {
-    height: 100vh;
-  }
+  
 }
 
 @media screen and (max-width: 950px) {
