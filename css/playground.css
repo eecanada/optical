@@ -477,6 +477,26 @@ h3 {
   /* height: 100vh; */
 }
 
+
+@media screen and (min-width: 992px) {
+  .team-svg {
+    max-width: 300px;
+  }
+
+  #photo-one {
+    max-width: 300px;
+  }
+  #photo-two {
+    max-width: 300px;
+  }
+
+  #team-photo-text{
+    display: flex;
+  }
+  
+}
+
+
 @media screen and (max-width: 991px) {
   .team-svg {
     max-width: 300px;
