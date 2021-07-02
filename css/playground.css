@@ -466,6 +466,7 @@ h3 {
   font-family: 'Inter';
 }
 
+
 /* Team Container */
 .team-container {
   background: rgb(255, 235, 156);
@@ -515,9 +516,7 @@ h3 {
   #photo-one {
     max-width: 200px;
   }
-  #photo-two {
-    max-width: 200px;
-  }
+  
 }
 
 @media screen and (max-width: 767px) {
@@ -542,13 +541,11 @@ h3 {
     align-items: center;
   }
 
-  #photo-one {
-    max-width: 200px;
-  }
-  #photo-two {
-    max-width: 200px;
-  }
+  
 }
+
+
+  
 
 #svg-team {
   display: flex;
