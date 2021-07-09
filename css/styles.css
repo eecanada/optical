@@ -208,22 +208,24 @@ h3 {
 .button-col-one {
   display: flex;
   flex-direction: column;
+  width: 33.3%;
 }
 
 .button-col-two {
   display: flex;
   flex-direction: column;
+  width: 33.3%;
 }
 
 .button-col-three {
   display: flex;
   flex-direction: column;
+  width: 33.3%;
 }
 
 .btn-service {
   margin: 30px;
   outline: 0;
-  /* border: 1px solid #ff9c8b; */
   background: rgb(255, 156, 139);
   color: #fff;
   font-family: 'Inter';
