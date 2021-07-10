@@ -40,6 +40,8 @@
     />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   </head>
   <body>
     <!-- NAVBAR --->
@@ -75,7 +77,7 @@
         </div>
       </nav>
       <div class="row hero-div">
-        <div class="col-lg-8 col-md-6 col-sm-6 mx-auto mt-5">
+        <div class="col-lg-8 col-md-6 col-sm-6 mx-auto mt-5"  data-aos="fade-right">
           <h1 class="hero-text">
             your <br />
             neighboohood<br />
@@ -85,7 +87,7 @@
         </div>
         <div
           class="col-lg-4 col-md-4 col-sm-6 mx-auto mt-5 header-image-container"
-        >
+          data-aos="zoom-in" >
           <img class="responsive" src="./images/Specs-amico.svg" alt="" />
         </div>
       </div>
@@ -94,11 +96,11 @@
     <!-- SERVICE CONTAINER -->
     <div id="services" class="container-fluid services-container">
       <div class="row service-row">
-        <div class="col-sm-12">
+        <div class="col-sm-12" data-aos="fade-up">
           <h1 class="service-header">How We Can Help You</h1>
           <p class="service-tag-line">find out more about our services</p>
         </div>
-        <div class="col-xxl-9 col-xl-9 col-lg-10 services-col-one">
+        <div class="col-xxl-9 col-xl-9 col-lg-10 services-col-one" data-aos="fade-up">
           <div class="button-col-one">
             <button
               type="button"
@@ -214,7 +216,7 @@
           </div>
         </div>
 
-        <div class="col-xxl-3 col-xl-3 col-lg-2 services-col-two">
+        <div class="col-xxl-3 col-xl-3 col-lg-2 services-col-two" data-aos="fade-up">
           <img
             class="service-image"
             src="./images/Agreement-amico.svg"
@@ -237,12 +239,12 @@
       <div class="row look-row">
         <div
           class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12 look-column-one"
-        >
+          data-aos="fade-right" >
           <img class="look-svg" src="./images/Specs-pana.svg" alt="" />
         </div>
 
         <div
-          class="col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-12 look-column-two"
+          class="col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-12 look-column-two" data-aos="fade-left" 
         >
           <img class="logo-image" src="./images/gucci.png" alt="" />
           <img class="logo-image" src="./images/tom-ford.png" alt="" />
@@ -269,7 +271,7 @@
           <h1 class="service-header">Our Patients Come First</h1>
           <p class="service-tag-line">read our testimonials</p>
         </div>
-        <div class="col-xxl-8 col-xl-8 col-lg-8 first-testimonial-con">
+        <div class="col-xxl-8 col-xl-8 col-lg-8 first-testimonial-con" data-aos="zoom-in-left">
           <div class="first-testimonial">
             <img
               class="testimonial-photo"
@@ -303,7 +305,7 @@
                 
           </div>
         </div>
-        <div class="col-xxl-4 col-xl-4 col-lg-4 testimonial-col-two">
+        <div class="col-xxl-4 col-xl-4 col-lg-4 testimonial-col-two" data-aos="fade-right">
           <img class="testimonial-svg" src="./images/Specs-rafiki.svg" alt="" />
         </div>
       </div>
@@ -313,13 +315,13 @@
     <!-- TEAM CONTAINER -->
     <div id="our-team" class="container-fluid team-container">
       <div class="row">
-        <div class="col-sm-12">
+        <div class="col-sm-12" data-aos="zoom-in">
           <h1 class="service-header">Meet Our Team in Person</h1>
           <p class="service-tag-line">schedule your first appointment</p>
         </div>
       </div>
       <div class="row team-row">
-        <div id="svg-team" class="col-xl-4 col-lg-4 col-md-4">
+        <div id="svg-team" class="col-xl-4 col-lg-4 col-md-4" data-aos="fade-up">
           <img
             class="team-svg"
             src="./images/Health professional team-rafiki.svg"
@@ -327,7 +329,7 @@
           />
         </div>
 
-        <div class="col-xl-8 col-lg-8 col-md-8">
+        <div class="col-xl-8 col-lg-8 col-md-8" data-aos="zoom-in-right">
           <div class="team-col-two">
             <img id="photo-one" src="./images/marvin-optician.JPG" alt="" />
             <p class="team-photo-text">Marvin Martinez - Optician</p>
@@ -1039,5 +1041,9 @@ These glasses may improve your quality of sleep. Blue light can reduce your body
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
