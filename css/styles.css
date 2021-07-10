@@ -476,12 +476,24 @@ h3 {
   border-radius: 100%;
   float: right;
   margin-left: 2rem;
-  border: 5px solid white;
+  border: 5px solid #ffeb9c;
 }
 
 .testimonial-name {
   text-align: right;
   font-family: 'Merriweather', serif;
+}
+
+
+@media screen and (max-width: 450px) {
+  .testimonial-photo-two {
+    height: 120px;
+    width: 100px;
+    border-radius: 100%;
+    float: right;
+    margin-left: 2rem;
+    border: 5px solid #ffeb9c;
+  }
 }
 
 /* Team Container */
