@@ -209,18 +209,21 @@ h3 {
   display: flex;
   flex-direction: column;
   width: 33.3%;
+  align-items: center;
 }
 
 .button-col-two {
   display: flex;
   flex-direction: column;
   width: 33.3%;
+  align-items: center;
 }
 
 .button-col-three {
   display: flex;
   flex-direction: column;
   width: 33.3%;
+  align-items: center;
 }
 
 .btn-service {
