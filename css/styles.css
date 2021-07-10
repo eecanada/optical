@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 img {
   width: 100%;
 }
@@ -11,6 +15,7 @@ img {
 body {
   line-height: 1.5;
   width: 100%;
+  position: relative;
 }
 
 @font-face {
